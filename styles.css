@@ -1,0 +1,238 @@
+html{
+  text-align: center;
+  width: 1920px;
+  height: 1080px;
+  background: url(fondo.jpg);
+}
+h1{
+  text-align: center;
+}
+
+
+
+.gohan{
+  width: 85.66px;
+  height: 124px;
+  background: url("gohan1.png");
+  margin: 0 auto;
+  margin-right: 15%;
+  margin-top: 35%;
+  animation: gohan1 1.5s steps(6) infinite;
+  animation-name: gohan1;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes gohan1 {
+  0%{
+    background-position: 0px;
+  }
+  100%{
+    background-position: -514px;
+  }
+}
+
+.cel12{
+  width: 167.6px;
+  height: 188px;
+  background: url("cell1.png");
+  margin: 0 auto;
+  margin-left: 20%;
+  margin-top: -10%;
+  animation: cell1 1s steps(5) infinite;
+}
+
+@keyframes cell1 {
+  0%{
+    background-position: -838px;
+  }
+  100%{
+    background-position: 0px;
+  }
+}
+
+.vegeta{
+  width: 110px;
+  height: 141px;
+  background: url("v1.png");
+  margin: 0 auto;
+  margin-left: 45%;
+  margin-top: -30%;
+  animation: vegeta1 2s steps(4) infinite;
+}
+
+@keyframes vegeta1 {
+  0%{
+    background-position: 0px;
+  }
+  100%{
+    background-position: -440px;
+  }
+}
+
+.goku{
+  width: 194px;
+  height: 135px;
+  background: url("goku1.png");
+  margin: 0 auto;
+  margin-left: 24%;
+  margin-top: 12%;
+  animation: goku1 2s steps(5) infinite;
+}
+
+@keyframes goku1 {
+  0%{
+    background-position: 0px;
+  }
+  100%{
+    background-position: -974px;
+  }
+}
+
+.buu{
+  width: 354px;
+  height: 166px;
+  background: url("bu.png");
+  margin: 0 auto;
+  margin-left: 32%;
+  margin-top: -27%;
+  animation: buu1 1.5s steps(7) infinite, borderTop 2s linear;
+}
+
+@keyframes buu1 {
+  0%{
+    background-position: -2483px;
+  }
+  100%{
+    background-position: 0px;
+  }
+}
+
+@keyframes borderTop {
+  0%{
+    transform: translateX(-100%);
+  }
+  50%{
+    transform: translateY(55%);
+  }
+  100%{
+    transform: translateX(40%);
+  }
+}
+
+.goku2{
+  width: 36px;
+  height: 95px;
+  background: url("gokuu.png");
+  margin: 0 auto;
+  margin-left: 5%;
+  margin-top: -20%;
+  animation: goku32 1s steps(6) infinite;
+}
+
+@keyframes goku32 {
+  0%{
+    background-position: 0px;
+  }
+  100%{
+    background-position: -220px;
+  }
+}
+
+.broly{
+  width: 217px;
+  height: 200px;
+  background: url("broly.png");
+  margin: 0 auto;
+  margin-left: 72%;
+  margin-top: 12%;
+  animation: broly31 1.5s steps(6) infinite;
+}
+
+@keyframes broly31 {
+  0%{
+    background-position: -1306px;
+  }
+  100%{
+    background-position: 0px;
+  }
+}
+
+.rayo{
+  width: 137px;
+  height: 800px;
+  background: url("rayo.png");
+  margin: 0 auto;
+  margin-left: 72%;
+  margin-top: -50%;
+  animation: rayo31 1.5s steps(5) infinite;
+}
+
+.rayo2{
+  width: 137px;
+  height: 800px;
+  background: url("rayo.png");
+  margin: 0 auto;
+  margin-left: 15%;
+  margin-top: -30%;
+  animation: rayo31 1.5s steps(5) infinite;
+}
+
+.rayo3{
+  width: 137px;
+  height: 800px;
+  background: url("rayo.png");
+  margin: 0 auto;
+  margin-left: 50%;
+  margin-top: -50%;
+  animation: rayo31 1.5s steps(5) infinite;
+}
+
+@keyframes rayo31 {
+  0%{
+    background-position: 0px;
+  }
+  100%{
+    background-position: -689px;
+  }
+}
+
+.nube{
+  width: 49px;
+  height: 80px;
+  background: url("nube2.png");
+  margin: 0 auto;
+  margin-left: 22%;
+  margin-top: -14%;
+  animation: nubee 1.5s steps(4) infinite;
+}
+
+.nube02{
+  width: 49px;
+  height: 80px;
+  background: url("nube2.png");
+  margin: 0 auto;
+  margin-left: 90%;
+  margin-top: -3%;
+  animation: nubee 1.5s steps(4) infinite;
+}
+
+.nube03{
+  width: 49px;
+  height: 80px;
+  background: url("nube2.png");
+  margin: 0 auto;
+  margin-left: 60%;
+  margin-top: -3%;
+  animation: nubee 1.5s steps(4) infinite;
+}
+
+@keyframes nubee {
+  0%{
+    background-position: 0px;
+  }
+  100%{
+    background-position: -198px;
+  }
+}
